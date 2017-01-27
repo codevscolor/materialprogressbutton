@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="progressButton">
+        <attr name="progressColor" format="integer" />
+        <attr name="buttonColor" format="integer" />
+        <attr name="buttonPressedColor" format="integer" />
+        <attr name="progress_icon" format="integer" />
+        <attr name="success_icon" format="integer" />
+        <attr name="failure_icon" format="integer" />
+        <attr name="successColor" format="integer" />
+        <attr name="failedColor" format="integer" />
+        <attr name="buttonWidth" format="integer" />
+        <attr name="buttonHeight" format="integer" />
+        <attr name="buttonTitle" format="string" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="app_header_color">#00AEEF</color>
+    <color name="app_header_text_color">#dc6f5b</color>
+    <color name="tab_text_color">#69b9be</color>
+    <color name="imageborder">#D8D8D8</color>
+    <color name="radiorangetext">#dbce20</color>
+    <color name="mb_gray">#ffdedede</color>
+    <color name="mb_blue">#ff0099cc</color>
+    <color name="mb_blue_dark">#ff00719b</color>
+
+    <color name="greenbar">#35bf4c</color>
+    <color name="lightgreenbarr">#F2F5A9</color>
+
+
+    <color name="arcprimarycolor">#39B54A</color>
+    <color name="arcsecondarycolor">#41C3EA</color>
+    <color name="arcdistanceindicator">#41C3EA</color>
+    <color name="arcdistancemeters">#98DCA1</color>
+
+    <color name="progressprimary">#00AEEF</color>
+    <color name="progresssecondary">#41C3EA</color>
+
+
+    <color name="color_normal">#00BCD4</color>
+    <color name="color_pressed">#0097A7</color>
+    <color name="color_progress">#FFEB3B</color>
+    <color name="color_success">#8BC34A</color>
+    <color name="color_failed">#F44479</color>
+
+</resources>

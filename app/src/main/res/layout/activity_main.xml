@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:progressbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codevscolor.demoapp.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+        android:alpha="0.5"
+        />
+
+    <com.codevscolor.ProgressButton
+        android:id="@+id/progress_button"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        progressbutton:buttonTitle = "@string/button_text"
+        progressbutton:progressColor="@color/color_progress"
+        progressbutton:buttonColor="@color/color_normal"
+        progressbutton:buttonPressedColor="@color/color_pressed"
+        progressbutton:progress_icon="@drawable/ic_cloud_download_white_36dp"
+        progressbutton:success_icon="@drawable/ic_cloud_done_white_36dp"
+        progressbutton:failure_icon="@drawable/ic_cloud_off_white_36dp"
+        progressbutton:successColor="@color/color_success"
+        progressbutton:failedColor = "@color/color_failed"
+        progressbutton:buttonWidth = "1050"
+        progressbutton:buttonHeight = "200"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp" />
+
+</RelativeLayout>
